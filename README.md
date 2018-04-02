@@ -1,20 +1,40 @@
-ember-plex-font
+ember-font-plex
 ==============================================================================
 
-[Short description of the addon.]
+[![Ember Observer Score](http://emberobserver.com/badges/ember-font-plex.svg)](http://emberobserver.com/addons/ember-font-plex)
+[![npm version](https://badge.fury.io/js/ember-font-plex.svg)](http://badge.fury.io/js/ember-font-plex)
+
+The package of IBM’s typeface, [IBM Plex](https://github.com/IBM/plex), for EmberJS.
 
 Installation
 ------------------------------------------------------------------------------
 
 ```
-ember install ember-plex-font
+ember install ember-font-plex
 ```
 
 
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+```javascript
+let app = new EmberApp(defaults, {
+  'ember-font-plex': {
+    fonts: [
+      'IBM Plex Sans',
+      'IBM Plex Sans Condensed',
+      'IBM Plex Serif',
+      'IBM-Plex-Mono'
+    ]
+  }
+});
+```
+
+```css
+h2 {
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+```
 
 
 Contributing
@@ -23,7 +43,7 @@ Contributing
 ### Installation
 
 * `git clone <repository-url>`
-* `cd ember-plex-font`
+* `cd ember-font-plex`
 * `yarn install`
 
 ### Linting
