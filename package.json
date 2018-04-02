@@ -1,6 +1,6 @@
 {
   "name": "ember-font-plex",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "description": "The package of IBM’s typeface, IBM Plex, for EmberJS.",
   "keywords": [
     "ember-addon"
