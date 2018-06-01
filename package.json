@@ -20,7 +20,7 @@
     "test:all": "ember try:each"
   },
   "dependencies": {
-    "@ibm/plex": "^1.0.1",
+    "@ibm/plex": "=1.0.2",
     "ember-cli-babel": "^6.6.0"
   },
   "devDependencies": {
